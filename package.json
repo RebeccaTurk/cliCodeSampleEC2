@@ -1,0 +1,34 @@
+{
+    "name": "arke-visualizer",
+    "description": "A simple visualizer for your AWS services in one location.",
+    "version": "0.1.0",
+    "proxy": "http://localhost:8080",
+    "private": true,
+    "homepage": "https://github.com/CodeSmith-Team-ARKE/ARKE-Hub-Visualizer",
+    "dependencies": {
+      "aws-sdk": "^2.291.0",
+      "body-parser": "^1.18.3",
+      "chalk": "^2.4.1",
+      "co": "^4.6.0",
+      "co-prompt": "^1.0.0",
+      "commander": "^2.17.1",
+      "echarts": "^4.1.0",
+      "echarts-for-react": "^2.0.14",
+      "express": "^4.16.3",
+      "react": "^16.4.2",
+      "react-dom": "^16.4.2",
+      "react-scripts": "1.1.4",
+      "uuid": "^3.3.2"
+    },
+    "bin": {
+      "arke": "./command.js"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "author": "Team Arke: CodeSmith",
+    "license": "ISC"
+}
